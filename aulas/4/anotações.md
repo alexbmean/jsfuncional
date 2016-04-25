@@ -6,5 +6,9 @@ First Class Citzen || High-Order Functions
 	- Retornada de uma função;
 	- Ser passada por parâmetro;
 
-# - Vídeo https://youtu.be/zPL6WWpA__o?t=31m1s	
+* High-order Functions
+
+	- Recebe uma ou mais funções como parâmetro
+	- retorna uma função
+	
 

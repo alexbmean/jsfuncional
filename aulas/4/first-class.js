@@ -65,4 +65,22 @@
 			msg(name)
 		}
 
-		ola(hello , 'Alex 3')
+		ola(hello , 'Alex 3');
+	
+	// Usando Filter
+
+		var numeros = [1,2,3,4,5,6,7,8,9,10];
+		var apenasPares = function(numero) {
+			return !(numero % 2)
+		}
+
+		var resposta = numeros.filter(apenasPares)
+		console.log(resposta)
+
+// High-Order Functions
+
+	// Exemplo utilizando jQuery
+
+		$('html').on('click' , function() {
+			console.log(true)
+		});
